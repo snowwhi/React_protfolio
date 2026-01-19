@@ -1,10 +1,14 @@
 
+import Background from './Components/Background'
 import './index.css'
-
+import Header from './Components/Header'
+import TiltText from './Components/TiltText'
+import BottomText from './Components/BottomText'
 function App() {
   return (
    <>
-   <h1 className='bg-red-950 text-6xl text-white'> testing </h1>
+   <Header/>
+  <Background/>
    </>
   )
 }
